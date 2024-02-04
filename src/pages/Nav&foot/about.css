@@ -1,0 +1,42 @@
+.about{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    background-color: #fff;
+}
+.about .message{
+    margin-top: 50px;
+}
+.about .message h1{
+ margin-top: 80px;
+ font-size: 80px;
+ font-family:cursive;
+ color: rgb(8, 163, 112);
+    
+}
+.about .message h3{
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about .message .btn{
+    height: 40px;
+    width: 100px;
+    box-shadow: 10px 10px 10px black;
+    margin-top: 50px;
+    color: antiquewhite;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(80, 142, 235);
+}
+.about .message .btn:hover{
+    border:1px solid #be4d25;
+    background-color: rgb(22, 111, 245);
+}
+.about .message .btn p{
+    padding: 10px;
+    cursor: pointer;
+}
+.about_i img{
+    margin-top: 80px;
+}
