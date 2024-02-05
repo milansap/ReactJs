@@ -1,0 +1,19 @@
+.mapp ,tr,th,td{
+border: 1px solid black;
+border-collapse: collapse;
+text-align: center;
+}
+.mapp th{
+    background-color: rgb(50, 171, 241);
+    width: 10vw;
+    font-size: 20px;
+    color: rgb(24, 23, 23);
+    font-weight: bold;
+}
+.mapp tr{
+background-color: beige;
+color: rgb(2, 5, 41);
+}
+.mapp {
+    margin: auto;
+}

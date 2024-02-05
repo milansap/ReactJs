@@ -1,0 +1,23 @@
+
+.card{
+    display: flex;
+    flex-direction: column;
+    
+    margin: auto;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(141, 138, 138, 0.575);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+}
+.card:hover{
+border: 2px solid rgb(39, 100, 190);
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    
+}   
+.desc{
+   padding: 5px;
+    font-size: 15px;
+}

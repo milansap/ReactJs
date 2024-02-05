@@ -1,0 +1,65 @@
+.main_container {
+}
+.main_container h1 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+.main_container h3 {
+  font-size: 40px;
+  color: rgb(34, 82, 3);
+  font-weight: bolder;
+}
+
+.main_container h1,
+h3 {
+  text-align: center;
+}
+.manage-img {
+  display: flex;
+  justify-content: space-evenly;
+  max-height: 75vh;
+  gap: 20vw;
+  overflow: clip;
+}
+.group1,
+.group2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.manage-img .img-1,
+.img-7 {
+  padding: 10px;
+}
+.manage-img .img-2,
+.img-6 {
+  padding: 10px;
+  margin-top: 20vh;
+}
+.manage-img .img-3,
+.img-5 {
+  padding: 10px;
+  margin-top: 40vh;
+}
+.manage-img .img-4 {
+  width: 10vw;
+}
+.overlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0) 40%,
+    rgba(255, 255, 255, 1) 85%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  /* Adjust the color and opacity as needed */
+  pointer-events: none; /* Allows clicking through the overlay */
+}
+.container {
+  position: relative;
+}

@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  display: flex;
+  position: sticky;
+  top: 0;
+  height: 12vh;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav .logo span {
+  font-weight: bolder;
+  color: rgb(114, 2, 2);
+  cursor: pointer;
+}
+.nav .logo a {
+  cursor: pointer;
+}
+.nav .logo img {
+  padding: 0 0px 0 30px;
+}
+.logo .logo1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+}
+.logo1 span {
+  align-items: end;
+}
+.logo a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding: 10px;
+  font-weight: bolder;
+}
+.logo a:hover {
+  border-radius: 15px;
+  background-color: rgb(84, 84, 87, 0.5);
+}
+.bar ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+.nav ul li {
+  display: inline;
+  padding: 20px;
+}
+.nav ul .sign {
+  margin: 20px;
+  padding: 10px;
+}
+.bar {
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.bar input[type="text"] {
+  border-radius: 25px;
+  border: 0px solid rgb(70, 177, 226);
+  width: 62vw;
+  height: 3vw;
+  background-color: #cfcbcb;
+}
+.bar .s1:hover {
+  background-color: rgba(161, 4, 4, 0.863);
+}
+
+.bar .s1 {
+  background-color: rgb(223, 5, 5);
+  color: white;
+  border-radius: 30px;
+  padding: 10px;
+  text-decoration: none;
+}
+.bar .s2:hover {
+  background-color: rgb(204, 200, 200);
+}
+.bar .s2 {
+  text-decoration: none;
+  padding: 10px;
+  height: 5px;
+  width: 55px;
+  background-color: rgb(226, 225, 225);
+  color: black;
+  border-radius: 30px;
+}
