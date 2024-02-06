@@ -14,17 +14,17 @@ function CardComponents() {
       img: "https://picsum.photos/200/300",
     },
     {
-      name: "card2",
+      name: "card3",
       description: "descriptionzddfv",
       img: "https://picsum.photos/200/300",
     },
     {
-      name: "card2",
+      name: "card4",
       description: "descriptionzddfv",
       img: "https://picsum.photos/200/300",
     },
     {
-      name: "card2",
+      name: "card5",
       description: "descriptionzddfv",
       img: "https://picsum.photos/200/300",
     },

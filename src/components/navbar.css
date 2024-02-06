@@ -2,12 +2,14 @@
   margin: 0;
   padding: 0;
 }
+
 .nav {
   display: flex;
   position: sticky;
   top: 0;
   height: 12vh;
   width: 100%;
+  background-color: white;
   justify-content: space-between;
   align-items: center;
 }
